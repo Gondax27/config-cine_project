@@ -15,6 +15,10 @@ spring:
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.H2Dialect
+  boot:
+    admin:
+      client:
+        url: http://localhost:9030
 eureka:
   client:
     serviceUrl:
